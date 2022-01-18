@@ -1,4 +1,4 @@
-a = int(input())
+a = int(input("Введите число"))
 while a>0 :
     print (str(a))
     a-=1
