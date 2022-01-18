@@ -7,3 +7,7 @@
 /b/__pycache__
 /b/dist
 errors.txt
+/c/c.spec
+/c/build
+/c/__pycache__
+/c/dist
