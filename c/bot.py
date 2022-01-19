@@ -11,6 +11,7 @@ mgr = owm.weather_manager()
 @bot.message_handler(content_types=['text'])
 def send_echo(message):
 	#bot.reply_to(message, message.text)
+	#if message.text 
 	observation = mgr.weather_at_place(message.text)
 	w = observation.weather
 	temp = w.temperature('celsius')["temp"]
