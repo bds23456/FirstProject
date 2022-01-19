@@ -11,3 +11,5 @@ errors.txt
 /c/build
 /c/__pycache__
 /c/dist
+/c/token.txt
+/.vscode
